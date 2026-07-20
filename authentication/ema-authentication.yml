@@ -1,0 +1,53 @@
+generated: '2026-07-19'
+method: searched
+source: https://builder.ema.ai/api-reference/authentication
+docs: https://builder.ema.ai/api-reference/authentication
+summary:
+  model: two-step api-key then short-lived JWT bearer
+  types: [apiKey, http]
+  api_key_in: [header]
+  bearer_format: JWT
+description: >-
+  Ema's Builder Platform API uses a two-step authentication flow. First an API
+  key is generated for a user within a specific tenant via the gRPC-Web endpoint
+  auth.v1.AuthService/GenerateApiKey. That long-lived API key is then exchanged
+  for a short-lived JWT access token via a REST call. All subsequent REST and
+  gRPC-Web calls carry the access token as an HTTP Bearer token in the
+  Authorization header. Ema is multi-tenant; keys and tokens are scoped to a
+  tenant and user.
+schemes:
+- name: apiKey
+  type: apiKey
+  in: header
+  parameter: x-ema-api-key
+  used_for: exchanged at POST /api/auth/generate_access_token to mint an access token
+  issued_by: auth.v1.AuthService/GenerateApiKey (gRPC-Web)
+  lifetime: long-lived
+  source: https://builder.ema.ai/api-reference/authentication
+- name: bearerAuth
+  type: http
+  scheme: bearer
+  bearer_format: JWT
+  in: header
+  parameter: Authorization
+  used_for: all REST and gRPC-Web API calls
+  lifetime: short-lived (access token)
+  source: https://builder.ema.ai/api-reference/authentication
+flow:
+- step: 1
+  action: GenerateApiKey
+  protocol: gRPC-Web over HTTP
+  endpoint: /auth.v1.AuthService/GenerateApiKey
+  note: >-
+    For the first request (root tenant, no token yet) the browser session
+    bearer token can be reused once; see
+    https://builder.ema.ai/api-reference/misc/root-tenant-token
+- step: 2
+  action: GenerateAccessToken
+  protocol: REST
+  endpoint: POST /api/auth/generate_access_token
+  request_header: 'x-ema-api-key: <api-key>'
+  returns: JWT access token (short-lived)
+- step: 3
+  action: authenticated calls
+  header: 'Authorization: Bearer <access_token>'
