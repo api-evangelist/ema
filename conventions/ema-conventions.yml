@@ -1,0 +1,49 @@
+generated: '2026-07-19'
+method: searched
+source: https://builder.ema.ai/api-reference/getting-started
+docs: https://builder.ema.ai/api-reference
+description: >-
+  Cross-cutting request/response conventions for the Ema Builder Platform API,
+  captured from the public API reference. Ema exposes two parallel API paths: a
+  REST (HTTP/JSON) quickstart for common operations and a gRPC-Web path for
+  advanced/lower-level endpoints. The platform is multi-tenant, with most REST
+  paths namespaced by tenant.
+authentication:
+  style: bearer-jwt-after-api-key-exchange
+  header: 'Authorization: Bearer <access_token>'
+  ref: authentication/ema-authentication.yml
+transport:
+  rest:
+    base_url_pattern: https://your-instance.ema.co
+    content_type: application/json
+    note: per-tenant instance host; REST is the recommended quickstart path
+  grpc_web:
+    content_type: application/grpc-web+proto
+    required_headers: ['x-grpc-web: 1', 'x-user-agent: grpc-web-javascript/0.1']
+    framing: 5-byte gRPC-Web frame header (1 flag byte + 4-byte big-endian length)
+    ref: https://builder.ema.ai/api-reference/misc/grpc-web
+multitenancy:
+  model: workspaces and tenants; tokens scoped to tenant + user
+  path_convention: '/api/{tenantId}/... for tenant-scoped REST endpoints'
+  ref: https://builder.ema.ai/core-concepts/workspaces-tenants
+resource_paths:
+  chat: /api/chat/ and /api/chat/{conversation_id} (+ /async variant)
+  dashboards: /api/dashboards/v1/upload-and-run-rows
+async_execution:
+  supported: true
+  pattern: POST /api/chat/{conversation_id}/async then poll GET /api/chat/{conversation_id}
+triggering:
+  scheduled: any cron/cloud scheduler (Cloud Scheduler, EventBridge, Logic Apps) calling the REST API
+  event_based: external events (Salesforce lead, Zendesk ticket) via Zapier/Make/n8n/Power Automate HTTP calls
+  ref: https://builder.ema.ai/api-reference/triggers
+  note: >-
+    Triggering is inbound (external systems call Ema's API); Ema does not
+    document an outbound webhook/event publication surface, so no AsyncAPI or
+    Webhooks artifact is asserted.
+idempotency:
+  documented: false
+  note: no idempotency-key header or retry-dedup contract is documented in the public API reference
+pagination:
+  documented: false
+error_envelope:
+  format: not documented as RFC 9457; standard HTTP status codes over JSON

@@ -1,0 +1,5 @@
+Contact: mailto:security@ema.co
+Expires: 2026-12-22T11:56:00Z
+Hiring: https://jobs.ashbyhq.com/ema
+Policy: https://www.ema.co/privacy-policy
+Preferred-Languages: en

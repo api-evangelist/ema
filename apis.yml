@@ -1,8 +1,29 @@
 aid: ema
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ema.png
 name: Ema
-description: 'Ema is a company surfaced as a portfolio company of accel, prosus-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Ema is an enterprise "AI Employee" platform that builds autonomous agents to
+  automate cross-functional workflows across HR, IT, Finance, customer support
+  and healthcare operations. Its Autopilot builder turns plain-language
+  descriptions into working AI Employees, EmaFusion combines 100+ AI models to
+  optimize accuracy, cost and latency, and 1,000+ prebuilt connectors integrate
+  with enterprise systems. Ema exposes a Builder Platform API (REST/JSON plus a
+  gRPC-Web path) covering AI Employee, Chat, Workflow, Dashboard, Document
+  Generation and tenant-management operations, secured by a two-step API-key to
+  short-lived JWT flow, along with an Embeddable Chat SDK. The company is backed
+  by Accel and Prosus Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/ema/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,11 +34,40 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Ai
-apis: []
+- AI
+- Agents
+- AI Employees
+- Automation
+- Enterprise
+- Workflow Automation
+- Conversational AI
+apis:
+- name: Ema Builder Platform API
+  description: >-
+    Programmatic access to Ema AI Employees. REST (HTTP/JSON) quickstart plus a
+    gRPC-Web path for advanced endpoints, covering Chat, Workflows, Dashboards,
+    Document Generation, Templates, Triggers and tenant management. Multi-tenant;
+    authenticated with a two-step API-key to short-lived JWT bearer flow.
+  humanURL: https://builder.ema.ai/api-reference/getting-started
+  baseURL: https://your-instance.ema.co
+  tags:
+  - AI Employees
+  - Chat
+  - Workflows
+  - Dashboards
+  - Automation
+  properties:
+  - type: Documentation
+    url: https://builder.ema.ai/api-reference
+  - type: APIReference
+    url: https://builder.ema.ai/api-reference/getting-started
+  - type: Authentication
+    url: authentication/ema-authentication.yml
+  - type: Conventions
+    url: conventions/ema-conventions.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -25,4 +75,45 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://ema.co
+  url: https://www.ema.ai
+- type: DeveloperPortal
+  url: https://builder.ema.ai
+- type: Documentation
+  url: https://builder.ema.ai
+- type: APIReference
+  url: https://builder.ema.ai/api-reference/getting-started
+- type: GettingStarted
+  url: https://builder.ema.ai/api-reference/getting-started
+- type: Blog
+  url: https://www.ema.ai/blog
+- type: Support
+  url: https://support.ema.ai
+- type: Login
+  url: https://app.ema.ai
+- type: PrivacyPolicy
+  url: https://www.ema.ai/privacy-policy
+- type: TrustCenter
+  url: https://trust.ema.ai/
+- type: Authentication
+  url: authentication/ema-authentication.yml
+- type: Conventions
+  url: conventions/ema-conventions.yml
+- type: Components
+  url: components/ema-components.yml
+- type: LLMsTxt
+  url: llms/ema-llms.txt
+- type: WellKnown
+  url: well-known/ema-well-known.yml
+- type: SecurityTxt
+  url: well-known/ema-security.txt
+- type: DomainSecurity
+  url: security/ema-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/ema-vulnerability-disclosure.yml
+- type: Security
+  url: https://ema.co/.well-known/security.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

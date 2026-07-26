@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.ema.ai/ (homepage links to trust center)
+url: https://trust.ema.ai/
+description: >-
+  Ema operates a public Trust Center at trust.ema.ai covering its security,
+  privacy and compliance posture. The center itself is a JavaScript-rendered
+  portal (SafeBase-style); specific certification names could not be extracted
+  verbatim from the static HTML and are intentionally not asserted here to
+  avoid fabrication. Confirmed present, not the certification list.
+certifications: []
+notes: >-
+  Ema markets enterprise-grade governance (immutable audit trails, RBAC, PII
+  detection, human-in-the-loop approval). Named certifications should be read
+  from the live trust center or a follow-up authenticated fetch before a
+  Compliance pointer is asserted.
+evidence:
+- source: https://www.ema.ai/
+  kind: homepage link to https://trust.ema.ai/
+- source: https://trust.ema.ai/
+  kind: live trust center (HTTP 200, JS-rendered)

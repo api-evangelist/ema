@@ -1,0 +1,283 @@
+# Ema Builder Platform Documentation
+
+> Ema is a universal AI Employee platform. This file maps every page of the
+> Ema Builder docs so language models can index the docs efficiently. Each
+> URL has a Markdown twin at the same path with a `.md` suffix.
+
+## Introduction
+
+- [Glossary](https://builder.ema.ai/introduction/glossary) — Markdown: https://builder.ema.ai/introduction/glossary.md
+- [Key Concepts](https://builder.ema.ai/introduction/key-concepts) — Markdown: https://builder.ema.ai/introduction/key-concepts.md
+- [Platform Tour](https://builder.ema.ai/introduction/platform-tour) — Markdown: https://builder.ema.ai/introduction/platform-tour.md
+- [What Is Ema?](https://builder.ema.ai/introduction/what-is-ema) — Markdown: https://builder.ema.ai/introduction/what-is-ema.md
+
+## Getting Started
+
+- [AI Employee Types](https://builder.ema.ai/getting-started/ai-employee-types) — Markdown: https://builder.ema.ai/getting-started/ai-employee-types.md
+### Effective Discovery
+
+- [Hire to Retire Discovery Guide](https://builder.ema.ai/getting-started/effective-discovery/hire-to-retire) — Markdown: https://builder.ema.ai/getting-started/effective-discovery/hire-to-retire.md
+- [Lead to Cash Discovery Guide](https://builder.ema.ai/getting-started/effective-discovery/lead-to-cash) — Markdown: https://builder.ema.ai/getting-started/effective-discovery/lead-to-cash.md
+- [Query to Resolution Discovery Guide](https://builder.ema.ai/getting-started/effective-discovery/query-to-resolution) — Markdown: https://builder.ema.ai/getting-started/effective-discovery/query-to-resolution.md
+
+- [Create Your First AI Employee](https://builder.ema.ai/getting-started/first-ai-employee) — Markdown: https://builder.ema.ai/getting-started/first-ai-employee.md
+- [First Login](https://builder.ema.ai/getting-started/first-login) — Markdown: https://builder.ema.ai/getting-started/first-login.md
+
+## Core Concepts
+
+- [AI Employee Groups](https://builder.ema.ai/core-concepts/ai-employee-groups) — Markdown: https://builder.ema.ai/core-concepts/ai-employee-groups.md
+- [AI Employees](https://builder.ema.ai/core-concepts/ai-employees) — Markdown: https://builder.ema.ai/core-concepts/ai-employees.md
+- [Conditionals](https://builder.ema.ai/core-concepts/conditionals) — Markdown: https://builder.ema.ai/core-concepts/conditionals.md
+- [Frontier Apps](https://builder.ema.ai/core-concepts/frontier-apps) — Markdown: https://builder.ema.ai/core-concepts/frontier-apps.md
+- [Generative Workflow Engine (GWE) Overview](https://builder.ema.ai/core-concepts/gwe-overview) — Markdown: https://builder.ema.ai/core-concepts/gwe-overview.md
+- [Named Inputs and Outputs](https://builder.ema.ai/core-concepts/named-inputs-outputs) — Markdown: https://builder.ema.ai/core-concepts/named-inputs-outputs.md
+- [Projects](https://builder.ema.ai/core-concepts/projects) — Markdown: https://builder.ema.ai/core-concepts/projects.md
+- [Type System](https://builder.ema.ai/core-concepts/type-system) — Markdown: https://builder.ema.ai/core-concepts/type-system.md
+- [Workflow Validation](https://builder.ema.ai/core-concepts/workflow-validation) — Markdown: https://builder.ema.ai/core-concepts/workflow-validation.md
+- [Workflow Version History](https://builder.ema.ai/core-concepts/workflow-version-history) — Markdown: https://builder.ema.ai/core-concepts/workflow-version-history.md
+- [Workflows and Actions](https://builder.ema.ai/core-concepts/workflows-actions) — Markdown: https://builder.ema.ai/core-concepts/workflows-actions.md
+- [Workspaces and Tenants](https://builder.ema.ai/core-concepts/workspaces-tenants) — Markdown: https://builder.ema.ai/core-concepts/workspaces-tenants.md
+
+## Builder Guides
+
+### Advanced
+
+- [Using AI Employees as Agents](https://builder.ema.ai/builder-guides/advanced/ai-employees-as-agents) — Markdown: https://builder.ema.ai/builder-guides/advanced/ai-employees-as-agents.md
+- [Creating AI Employee Templates](https://builder.ema.ai/builder-guides/advanced/creating-templates) — Markdown: https://builder.ema.ai/builder-guides/advanced/creating-templates.md
+- [Integrating External Systems](https://builder.ema.ai/builder-guides/advanced/external-systems) — Markdown: https://builder.ema.ai/builder-guides/advanced/external-systems.md
+- [Customizing In-Progress Messages](https://builder.ema.ai/builder-guides/advanced/in-progress-messages) — Markdown: https://builder.ema.ai/builder-guides/advanced/in-progress-messages.md
+- [Scraping Web Links](https://builder.ema.ai/builder-guides/advanced/scraping-web-links) — Markdown: https://builder.ema.ai/builder-guides/advanced/scraping-web-links.md
+- [Workflow Version History Guide](https://builder.ema.ai/builder-guides/advanced/workflow-version-history) — Markdown: https://builder.ema.ai/builder-guides/advanced/workflow-version-history.md
+
+### Chat
+
+- [Creating Your First Workflow](https://builder.ema.ai/builder-guides/chat/first-workflow) — Markdown: https://builder.ema.ai/builder-guides/chat/first-workflow.md
+- [Improving Chat Performance](https://builder.ema.ai/builder-guides/chat/improving-performance) — Markdown: https://builder.ema.ai/builder-guides/chat/improving-performance.md
+- [Adding Workflow Branches](https://builder.ema.ai/builder-guides/chat/workflow-branches) — Markdown: https://builder.ema.ai/builder-guides/chat/workflow-branches.md
+- [Writing Effective Instructions](https://builder.ema.ai/builder-guides/chat/writing-instructions) — Markdown: https://builder.ema.ai/builder-guides/chat/writing-instructions.md
+
+### Dashboard
+
+- [Creating a Dashboard AI Employee](https://builder.ema.ai/builder-guides/dashboard/creating-dashboard-ai-employee) — Markdown: https://builder.ema.ai/builder-guides/dashboard/creating-dashboard-ai-employee.md
+- [Dashboard Features](https://builder.ema.ai/builder-guides/dashboard/dashboard-features) — Markdown: https://builder.ema.ai/builder-guides/dashboard/dashboard-features.md
+- [Creating Dashboard Triggers](https://builder.ema.ai/builder-guides/dashboard/dashboard-triggers) — Markdown: https://builder.ema.ai/builder-guides/dashboard/dashboard-triggers.md
+- [Publishing to Dashboard](https://builder.ema.ai/builder-guides/dashboard/publishing-to-dashboard) — Markdown: https://builder.ema.ai/builder-guides/dashboard/publishing-to-dashboard.md
+
+### Document
+
+- [Document Generation](https://builder.ema.ai/builder-guides/document/document-generation) — Markdown: https://builder.ema.ai/builder-guides/document/document-generation.md
+
+### Email
+
+- [Creating a Conversational Email AI Employee](https://builder.ema.ai/builder-guides/email/conversational-email) — Markdown: https://builder.ema.ai/builder-guides/email/conversational-email.md
+
+### Examples
+
+- [Example: Building an Employee Assistant](https://builder.ema.ai/builder-guides/examples/employee-assistant) — Markdown: https://builder.ema.ai/builder-guides/examples/employee-assistant.md
+- [Example: Building a Resume Ranker](https://builder.ema.ai/builder-guides/examples/resume-ranker) — Markdown: https://builder.ema.ai/builder-guides/examples/resume-ranker.md
+- [Example: Building a Sales Intelligence Assistant](https://builder.ema.ai/builder-guides/examples/sales-intelligence) — Markdown: https://builder.ema.ai/builder-guides/examples/sales-intelligence.md
+
+### Voice
+
+- [Audit Tab in Voice AI Employee](https://builder.ema.ai/builder-guides/voice/audit-tab) — Markdown: https://builder.ema.ai/builder-guides/voice/audit-tab.md
+- [Call Forwarding](https://builder.ema.ai/builder-guides/voice/call-forwarding) — Markdown: https://builder.ema.ai/builder-guides/voice/call-forwarding.md
+- [Creating a Voice AI Employee](https://builder.ema.ai/builder-guides/voice/creating-voice-ai-employee) — Markdown: https://builder.ema.ai/builder-guides/voice/creating-voice-ai-employee.md
+- [Metrics Tab in Voice AI Employee](https://builder.ema.ai/builder-guides/voice/metrics-tab) — Markdown: https://builder.ema.ai/builder-guides/voice/metrics-tab.md
+
+
+## Agent Reference
+
+### Core
+
+- [Abstain from Answering Agent](https://builder.ema.ai/agent-reference/core/abstain-from-answering) — Markdown: https://builder.ema.ai/agent-reference/core/abstain-from-answering.md
+- [Agentic Search and Respond](https://builder.ema.ai/agent-reference/core/agentic-search-and-respond) — Markdown: https://builder.ema.ai/agent-reference/core/agentic-search-and-respond.md
+- [App Navigator Agent](https://builder.ema.ai/agent-reference/core/app-navigator) — Markdown: https://builder.ema.ai/agent-reference/core/app-navigator.md
+- [Categorize Conversations and Route Agent](https://builder.ema.ai/agent-reference/core/categorize-conversations-and-route) — Markdown: https://builder.ema.ai/agent-reference/core/categorize-conversations-and-route.md
+- [Categorizer Agent](https://builder.ema.ai/agent-reference/core/categorizer) — Markdown: https://builder.ema.ai/agent-reference/core/categorizer.md
+- [Chart Builder Agent](https://builder.ema.ai/agent-reference/core/chart-builder) — Markdown: https://builder.ema.ai/agent-reference/core/chart-builder.md
+- [Combine Search Results Agent](https://builder.ema.ai/agent-reference/core/combine-search-results) — Markdown: https://builder.ema.ai/agent-reference/core/combine-search-results.md
+- [Combine Text Agent](https://builder.ema.ai/agent-reference/core/combine-text) — Markdown: https://builder.ema.ai/agent-reference/core/combine-text.md
+- [Conversation Summarizer Agent](https://builder.ema.ai/agent-reference/core/conversation-summarizer) — Markdown: https://builder.ema.ai/agent-reference/core/conversation-summarizer.md
+- [Convert to Text Agent](https://builder.ema.ai/agent-reference/core/convert-to-text) — Markdown: https://builder.ema.ai/agent-reference/core/convert-to-text.md
+- [Custom Agent](https://builder.ema.ai/agent-reference/core/custom-agent) — Markdown: https://builder.ema.ai/agent-reference/core/custom-agent.md
+- [Custom Code Agent](https://builder.ema.ai/agent-reference/core/custom-code-agent) — Markdown: https://builder.ema.ai/agent-reference/core/custom-code-agent.md
+- [Deep Web Search Agent](https://builder.ema.ai/agent-reference/core/deep-web-search) — Markdown: https://builder.ema.ai/agent-reference/core/deep-web-search.md
+- [Document Categorizer Agent](https://builder.ema.ai/agent-reference/core/document-categorizer) — Markdown: https://builder.ema.ai/agent-reference/core/document-categorizer.md
+- [Document Synthesis Agent](https://builder.ema.ai/agent-reference/core/document-synthesis) — Markdown: https://builder.ema.ai/agent-reference/core/document-synthesis.md
+- [Extract Entities Agent](https://builder.ema.ai/agent-reference/core/extract-entities) — Markdown: https://builder.ema.ai/agent-reference/core/extract-entities.md
+- [Feedback Sentiment Analyzer Agent](https://builder.ema.ai/agent-reference/core/feedback-sentiment-analyzer) — Markdown: https://builder.ema.ai/agent-reference/core/feedback-sentiment-analyzer.md
+- [Fixed Response Agent](https://builder.ema.ai/agent-reference/core/fixed-response) — Markdown: https://builder.ema.ai/agent-reference/core/fixed-response.md
+- [Generate Document Agent](https://builder.ema.ai/agent-reference/core/generate-document) — Markdown: https://builder.ema.ai/agent-reference/core/generate-document.md
+- [Human Collaboration Agent](https://builder.ema.ai/agent-reference/core/human-collaboration) — Markdown: https://builder.ema.ai/agent-reference/core/human-collaboration.md
+- [Intelligent Actions Agent](https://builder.ema.ai/agent-reference/core/intelligent-actions) — Markdown: https://builder.ema.ai/agent-reference/core/intelligent-actions.md
+- [JSON Extractor Agent](https://builder.ema.ai/agent-reference/core/json-extractor) — Markdown: https://builder.ema.ai/agent-reference/core/json-extractor.md
+- [Knowledge Search Agent](https://builder.ema.ai/agent-reference/core/knowledge-search) — Markdown: https://builder.ema.ai/agent-reference/core/knowledge-search.md
+- [Mark as Public Response Agent](https://builder.ema.ai/agent-reference/core/mark-as-public-response) — Markdown: https://builder.ema.ai/agent-reference/core/mark-as-public-response.md
+- [Rerank Search Results Agent](https://builder.ema.ai/agent-reference/core/rerank-search-results) — Markdown: https://builder.ema.ai/agent-reference/core/rerank-search-results.md
+- [Respond to a Query Agent](https://builder.ema.ai/agent-reference/core/respond-to-a-query) — Markdown: https://builder.ema.ai/agent-reference/core/respond-to-a-query.md
+- [Respond using Action Calling Results Agent](https://builder.ema.ai/agent-reference/core/respond-using-action-calling-results) — Markdown: https://builder.ema.ai/agent-reference/core/respond-using-action-calling-results.md
+- [Respond using Search Results Agent](https://builder.ema.ai/agent-reference/core/respond-using-search-results) — Markdown: https://builder.ema.ai/agent-reference/core/respond-using-search-results.md
+- [Response Validator Agent](https://builder.ema.ai/agent-reference/core/response-validator) — Markdown: https://builder.ema.ai/agent-reference/core/response-validator.md
+- [Rule Validation Agent](https://builder.ema.ai/agent-reference/core/rule-validation) — Markdown: https://builder.ema.ai/agent-reference/core/rule-validation.md
+- [Sales Intelligence Agent](https://builder.ema.ai/agent-reference/core/sales-intelligence) — Markdown: https://builder.ema.ai/agent-reference/core/sales-intelligence.md
+- [Send Email Agent](https://builder.ema.ai/agent-reference/core/send-email) — Markdown: https://builder.ema.ai/agent-reference/core/send-email.md
+- [Sentiment Analyzer Agent](https://builder.ema.ai/agent-reference/core/sentiment-analyzer) — Markdown: https://builder.ema.ai/agent-reference/core/sentiment-analyzer.md
+- [Tag Extractor Agent](https://builder.ema.ai/agent-reference/core/tag-extractor) — Markdown: https://builder.ema.ai/agent-reference/core/tag-extractor.md
+- [Text Categorizer Agent](https://builder.ema.ai/agent-reference/core/text-categorizer) — Markdown: https://builder.ema.ai/agent-reference/core/text-categorizer.md
+- [Thread Categorizer Agent](https://builder.ema.ai/agent-reference/core/thread-categorizer) — Markdown: https://builder.ema.ai/agent-reference/core/thread-categorizer.md
+- [Thread Summarizer Agent](https://builder.ema.ai/agent-reference/core/thread-summarizer) — Markdown: https://builder.ema.ai/agent-reference/core/thread-summarizer.md
+
+- [Deprecated Agents](https://builder.ema.ai/agent-reference/deprecated) — Markdown: https://builder.ema.ai/agent-reference/deprecated.md
+### Specialized Agents Catalog
+
+- [Audit Evidence Verifier Agent](https://builder.ema.ai/agent-reference/specialized/audit-evidence-verifier) — Markdown: https://builder.ema.ai/agent-reference/specialized/audit-evidence-verifier.md
+- [Email Writer Agent](https://builder.ema.ai/agent-reference/specialized/email-writer) — Markdown: https://builder.ema.ai/agent-reference/specialized/email-writer.md
+- [Medical Evidence Summarizer Agent](https://builder.ema.ai/agent-reference/specialized/medical-evidence-summarizer) — Markdown: https://builder.ema.ai/agent-reference/specialized/medical-evidence-summarizer.md
+- [PRD Writer Agent](https://builder.ema.ai/agent-reference/specialized/prd-writer) — Markdown: https://builder.ema.ai/agent-reference/specialized/prd-writer.md
+
+
+## Autopilot
+
+- [Core actions](https://builder.ema.ai/autopilot/core-actions) — Markdown: https://builder.ema.ai/autopilot/core-actions.md
+- [Permissions & scoping](https://builder.ema.ai/autopilot/permissions-scoping) — Markdown: https://builder.ema.ai/autopilot/permissions-scoping.md
+- [Tips, limits & examples](https://builder.ema.ai/autopilot/tips-limits-examples) — Markdown: https://builder.ema.ai/autopilot/tips-limits-examples.md
+
+## Integrations & Data
+
+- [Custom Integrations](https://builder.ema.ai/integrations-data/custom-integrations) — Markdown: https://builder.ema.ai/integrations-data/custom-integrations.md
+- [Data API](https://builder.ema.ai/integrations-data/data-api) — Markdown: https://builder.ema.ai/integrations-data/data-api.md
+### Data Connectors
+
+- [Confluence Data Connector](https://builder.ema.ai/integrations-data/data-connectors/confluence) — Markdown: https://builder.ema.ai/integrations-data/data-connectors/confluence.md
+
+- [Data Extraction & Rule Validation](https://builder.ema.ai/integrations-data/data-extraction) — Markdown: https://builder.ema.ai/integrations-data/data-extraction.md
+- [Embeddable Chat SDK](https://builder.ema.ai/integrations-data/embeddable-chat-sdk) — Markdown: https://builder.ema.ai/integrations-data/embeddable-chat-sdk.md
+- [File Tagging](https://builder.ema.ai/integrations-data/file-tagging) — Markdown: https://builder.ema.ai/integrations-data/file-tagging.md
+- [List of Intelligent Action Integrations](https://builder.ema.ai/integrations-data/integration-list) — Markdown: https://builder.ema.ai/integrations-data/integration-list.md
+- [Intelligent Actions (External Tool Caller)](https://builder.ema.ai/integrations-data/intelligent-actions) — Markdown: https://builder.ema.ai/integrations-data/intelligent-actions.md
+- [Salesforce Integration Setup](https://builder.ema.ai/integrations-data/salesforce-setup) — Markdown: https://builder.ema.ai/integrations-data/salesforce-setup.md
+
+## Templates
+
+- [Agent Assist AI Employee](https://builder.ema.ai/templates/agent-assist) — Markdown: https://builder.ema.ai/templates/agent-assist.md
+- [AI SDR](https://builder.ema.ai/templates/ai-sdr) — Markdown: https://builder.ema.ai/templates/ai-sdr.md
+- [Contract Evaluation AI Employee](https://builder.ema.ai/templates/contract-evaluation-assistant) — Markdown: https://builder.ema.ai/templates/contract-evaluation-assistant.md
+- [Customer Support AI Employee](https://builder.ema.ai/templates/customer-support-assistant) — Markdown: https://builder.ema.ai/templates/customer-support-assistant.md
+- [Document Proposal AI Employee](https://builder.ema.ai/templates/document-proposal-manager) — Markdown: https://builder.ema.ai/templates/document-proposal-manager.md
+- [Employee Service AI Employee](https://builder.ema.ai/templates/employee-assistant) — Markdown: https://builder.ema.ai/templates/employee-assistant.md
+- [Insurance FNOL AI Employee](https://builder.ema.ai/templates/insurance-fnol-assistant) — Markdown: https://builder.ema.ai/templates/insurance-fnol-assistant.md
+- [Knowledge Base Auditor AI Employee](https://builder.ema.ai/templates/knowledge-base-auditor) — Markdown: https://builder.ema.ai/templates/knowledge-base-auditor.md
+- [Leadership Recruiter AI Employee](https://builder.ema.ai/templates/leadership-recruiter) — Markdown: https://builder.ema.ai/templates/leadership-recruiter.md
+- [Prior Authorization AI Employee](https://builder.ema.ai/templates/prior-authorization-assistant) — Markdown: https://builder.ema.ai/templates/prior-authorization-assistant.md
+- [Recruiter AI Employee](https://builder.ema.ai/templates/recruiter) — Markdown: https://builder.ema.ai/templates/recruiter.md
+- [Reimbursement AI Employee](https://builder.ema.ai/templates/reimbursement-assistant) — Markdown: https://builder.ema.ai/templates/reimbursement-assistant.md
+- [Sales Concierge AI Employee](https://builder.ema.ai/templates/sales-concierge) — Markdown: https://builder.ema.ai/templates/sales-concierge.md
+- [Sales Engineer AI Employee](https://builder.ema.ai/templates/sales-engineer) — Markdown: https://builder.ema.ai/templates/sales-engineer.md
+- [Sales Intelligence AI Employee](https://builder.ema.ai/templates/sales-intelligence-assistant) — Markdown: https://builder.ema.ai/templates/sales-intelligence-assistant.md
+- [Talent Matching AI Employee](https://builder.ema.ai/templates/talent-matching-assistant) — Markdown: https://builder.ema.ai/templates/talent-matching-assistant.md
+- [Voice of Customer AI Employee](https://builder.ema.ai/templates/voice-of-customer-analyst) — Markdown: https://builder.ema.ai/templates/voice-of-customer-analyst.md
+
+## Testing & Operations
+
+- [Auditing Chat AI Employees](https://builder.ema.ai/testing-operations/auditing) — Markdown: https://builder.ema.ai/testing-operations/auditing.md
+- [Chat Metrics](https://builder.ema.ai/testing-operations/chat-metrics) — Markdown: https://builder.ema.ai/testing-operations/chat-metrics.md
+- [Chatbot Logo Configuration](https://builder.ema.ai/testing-operations/chatbot-logo-configuration) — Markdown: https://builder.ema.ai/testing-operations/chatbot-logo-configuration.md
+- [Debug Logs](https://builder.ema.ai/testing-operations/debug-logs) — Markdown: https://builder.ema.ai/testing-operations/debug-logs.md
+- [Evaluating AI Employees](https://builder.ema.ai/testing-operations/evaluating) — Markdown: https://builder.ema.ai/testing-operations/evaluating.md
+- [Intelligent Human Collaboration (HITL)](https://builder.ema.ai/testing-operations/human-collaboration) — Markdown: https://builder.ema.ai/testing-operations/human-collaboration.md
+- [Launch Checklist](https://builder.ema.ai/testing-operations/launch-checklist) — Markdown: https://builder.ema.ai/testing-operations/launch-checklist.md
+- [Launching and Monitoring Your AI Employee](https://builder.ema.ai/testing-operations/launching-monitoring) — Markdown: https://builder.ema.ai/testing-operations/launching-monitoring.md
+- [Metrics & Insights](https://builder.ema.ai/testing-operations/metrics-insights) — Markdown: https://builder.ema.ai/testing-operations/metrics-insights.md
+- [Seamless Upgrade for AI Employees](https://builder.ema.ai/testing-operations/seamless-upgrade) — Markdown: https://builder.ema.ai/testing-operations/seamless-upgrade.md
+- [Testing AI Employees](https://builder.ema.ai/testing-operations/testing) — Markdown: https://builder.ema.ai/testing-operations/testing.md
+
+## API Reference
+
+### AI Employees
+
+- [AI Employee API](https://builder.ema.ai/api-reference/ai-employees/ai-employee-api) — Markdown: https://builder.ema.ai/api-reference/ai-employees/ai-employee-api.md
+- [AI Employee Data Model](https://builder.ema.ai/api-reference/ai-employees/data-model) — Markdown: https://builder.ema.ai/api-reference/ai-employees/data-model.md
+- [AI Employee Overview](https://builder.ema.ai/api-reference/ai-employees/overview) — Markdown: https://builder.ema.ai/api-reference/ai-employees/overview.md
+- [Template API](https://builder.ema.ai/api-reference/ai-employees/template-api) — Markdown: https://builder.ema.ai/api-reference/ai-employees/template-api.md
+
+- [Authentication](https://builder.ema.ai/api-reference/authentication) — Markdown: https://builder.ema.ai/api-reference/authentication.md
+### Chat
+
+- [Chat API](https://builder.ema.ai/api-reference/chat/chat-api) — Markdown: https://builder.ema.ai/api-reference/chat/chat-api.md
+- [Chat Data Model](https://builder.ema.ai/api-reference/chat/data-model) — Markdown: https://builder.ema.ai/api-reference/chat/data-model.md
+- [Chat Overview](https://builder.ema.ai/api-reference/chat/overview) — Markdown: https://builder.ema.ai/api-reference/chat/overview.md
+
+### Dashboard
+
+- [Dashboard Data Model](https://builder.ema.ai/api-reference/dashboard/data-model) — Markdown: https://builder.ema.ai/api-reference/dashboard/data-model.md
+- [Dashboard HTTP API](https://builder.ema.ai/api-reference/dashboard/http-api) — Markdown: https://builder.ema.ai/api-reference/dashboard/http-api.md
+- [Dashboard Overview](https://builder.ema.ai/api-reference/dashboard/overview) — Markdown: https://builder.ema.ai/api-reference/dashboard/overview.md
+- [Dashboard RPC Calls](https://builder.ema.ai/api-reference/dashboard/rpc-calls) — Markdown: https://builder.ema.ai/api-reference/dashboard/rpc-calls.md
+
+### Document Generation
+
+- [Document Generation API](https://builder.ema.ai/api-reference/document-generation/api) — Markdown: https://builder.ema.ai/api-reference/document-generation/api.md
+- [Document Generation Overview](https://builder.ema.ai/api-reference/document-generation/overview) — Markdown: https://builder.ema.ai/api-reference/document-generation/overview.md
+
+- [API Getting Started](https://builder.ema.ai/api-reference/getting-started) — Markdown: https://builder.ema.ai/api-reference/getting-started.md
+### Misc
+
+- [Debug Worklogs API](https://builder.ema.ai/api-reference/misc/debug-worklogs) — Markdown: https://builder.ema.ai/api-reference/misc/debug-worklogs.md
+- [Handling gRPC-Web Requests](https://builder.ema.ai/api-reference/misc/grpc-web) — Markdown: https://builder.ema.ai/api-reference/misc/grpc-web.md
+- [Miscellaneous APIs](https://builder.ema.ai/api-reference/misc/misc-apis) — Markdown: https://builder.ema.ai/api-reference/misc/misc-apis.md
+- [OTEL Worklogs API](https://builder.ema.ai/api-reference/misc/otel-worklogs) — Markdown: https://builder.ema.ai/api-reference/misc/otel-worklogs.md
+- [Access Token for Root Tenant API Key](https://builder.ema.ai/api-reference/misc/root-tenant-token) — Markdown: https://builder.ema.ai/api-reference/misc/root-tenant-token.md
+
+- [Tenant Management](https://builder.ema.ai/api-reference/tenant-management) — Markdown: https://builder.ema.ai/api-reference/tenant-management.md
+- [Triggering AI Employees](https://builder.ema.ai/api-reference/triggers) — Markdown: https://builder.ema.ai/api-reference/triggers.md
+### Workflows
+
+- [Action Data Model](https://builder.ema.ai/api-reference/workflows/action-data-model) — Markdown: https://builder.ema.ai/api-reference/workflows/action-data-model.md
+- [Workflow Overview](https://builder.ema.ai/api-reference/workflows/overview) — Markdown: https://builder.ema.ai/api-reference/workflows/overview.md
+- [Workflow API](https://builder.ema.ai/api-reference/workflows/workflow-api) — Markdown: https://builder.ema.ai/api-reference/workflows/workflow-api.md
+- [Workflow Data Model](https://builder.ema.ai/api-reference/workflows/workflow-data-model) — Markdown: https://builder.ema.ai/api-reference/workflows/workflow-data-model.md
+
+
+## Administration
+
+- [AIE Audit Log (Change Log)](https://builder.ema.ai/administration/audit-log) — Markdown: https://builder.ema.ai/administration/audit-log.md
+- [Governance, Access & Permissions](https://builder.ema.ai/administration/governance-permissions) — Markdown: https://builder.ema.ai/administration/governance-permissions.md
+- [Integration Maintenance Mode](https://builder.ema.ai/administration/maintenance-mode) — Markdown: https://builder.ema.ai/administration/maintenance-mode.md
+- [AI Employee Export & Import](https://builder.ema.ai/administration/persona-export-import) — Markdown: https://builder.ema.ai/administration/persona-export-import.md
+- [Security & Compliance](https://builder.ema.ai/administration/security-compliance) — Markdown: https://builder.ema.ai/administration/security-compliance.md
+- [User Management](https://builder.ema.ai/administration/user-management) — Markdown: https://builder.ema.ai/administration/user-management.md
+- [Workspaces & Tenants](https://builder.ema.ai/administration/workspaces-tenants) — Markdown: https://builder.ema.ai/administration/workspaces-tenants.md
+
+## Agent QA
+
+- [Core Concepts](https://builder.ema.ai/agent-qa/core-concepts) — Markdown: https://builder.ema.ai/agent-qa/core-concepts.md
+- [Setting Up Agent QA](https://builder.ema.ai/agent-qa/setup) — Markdown: https://builder.ema.ai/agent-qa/setup.md
+- [Reviewing Interactions (The Audit Tab)](https://builder.ema.ai/agent-qa/audit) — Markdown: https://builder.ema.ai/agent-qa/audit.md
+- [Understanding QA Scores and Scorecards](https://builder.ema.ai/agent-qa/scores) — Markdown: https://builder.ema.ai/agent-qa/scores.md
+- [Using the Metrics Dashboard](https://builder.ema.ai/agent-qa/metrics) — Markdown: https://builder.ema.ai/agent-qa/metrics.md
+- [Using the Insights Dashboard](https://builder.ema.ai/agent-qa/insights) — Markdown: https://builder.ema.ai/agent-qa/insights.md
+- [Feedback and Continuous Learning](https://builder.ema.ai/agent-qa/feedback) — Markdown: https://builder.ema.ai/agent-qa/feedback.md
+- [Managing QA Parameters](https://builder.ema.ai/agent-qa/parameters) — Markdown: https://builder.ema.ai/agent-qa/parameters.md
+- [For Agents: Viewing Your Own Results](https://builder.ema.ai/agent-qa/agent-view) — Markdown: https://builder.ema.ai/agent-qa/agent-view.md
+- [Roles and Permissions](https://builder.ema.ai/agent-qa/roles) — Markdown: https://builder.ema.ai/agent-qa/roles.md
+- [Audio Ingestion API](https://builder.ema.ai/agent-qa/api-audio-ingestion) — Markdown: https://builder.ema.ai/agent-qa/api-audio-ingestion.md
+- [Transcript Ingestion API](https://builder.ema.ai/agent-qa/api-transcript-ingestion) — Markdown: https://builder.ema.ai/agent-qa/api-transcript-ingestion.md
+- [Daily Data Export API](https://builder.ema.ai/agent-qa/api-daily-export) — Markdown: https://builder.ema.ai/agent-qa/api-daily-export.md
+- [CSAT Ingestion API](https://builder.ema.ai/agent-qa/api-csat-ingestion) — Markdown: https://builder.ema.ai/agent-qa/api-csat-ingestion.md
+- [Glossary](https://builder.ema.ai/agent-qa/glossary) — Markdown: https://builder.ema.ai/agent-qa/glossary.md
+
+## EmaFusion™
+
+- [How EmaFusion Works](https://builder.ema.ai/emafusion/how-it-works) — Markdown: https://builder.ema.ai/emafusion/how-it-works.md
+- [EmaFusion Setup & Configuration](https://builder.ema.ai/emafusion/setup) — Markdown: https://builder.ema.ai/emafusion/setup.md
+
+## Troubleshooting & Support
+
+- [Common Failure Modes](https://builder.ema.ai/troubleshooting/common-failures) — Markdown: https://builder.ema.ai/troubleshooting/common-failures.md
+- [Support](https://builder.ema.ai/troubleshooting/support) — Markdown: https://builder.ema.ai/troubleshooting/support.md
+
+## Use Cases & Patterns
+
+- [Custom Code Patterns](https://builder.ema.ai/use-cases-patterns/custom-code) — Markdown: https://builder.ema.ai/use-cases-patterns/custom-code.md
+- [Voice AI](https://builder.ema.ai/use-cases-patterns/voice-ai) — Markdown: https://builder.ema.ai/use-cases-patterns/voice-ai.md
+

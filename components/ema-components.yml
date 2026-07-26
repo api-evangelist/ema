@@ -1,0 +1,28 @@
+generated: '2026-07-19'
+method: searched
+source: https://builder.ema.ai/integrations-data/embeddable-chat-sdk
+docs: https://builder.ema.ai/integrations-data/embeddable-chat-sdk
+description: >-
+  Client-side / embeddable UI components published by Ema for embedding
+  Conversational AI Employees into first-party web properties.
+families:
+- name: Embeddable Chat SDK
+  aka: Ema Chatbot SDK
+  kind: embeddable-web-widget
+  docs: https://builder.ema.ai/integrations-data/embeddable-chat-sdk
+  description: >-
+    Drop-in, branded chat widget for embedding a Conversational AI Employee on a
+    website (support assistant, sales concierge, onboarding helper, internal
+    assistant) with a few lines of code.
+  configuration:
+  - logo
+  - title
+  - primary-color / theme
+  - personalized greeting / welcome message
+  - source transparency (show/hide answer sources)
+  - domain whitelist (allowed load domains)
+  use_cases:
+  - customer-support assistant
+  - sales concierge
+  - onboarding helper
+  - internal team assistant
