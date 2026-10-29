@@ -64,6 +64,94 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Ema is a company surfaced as a portfolio company of accel, prosus-ventures and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.
+Ema is an enterprise "AI Employee" platform that builds autonomous agents to automate cross-functional workflows across HR, IT, Finance, customer support and healthcare operations. Its Autopilot builder turns plain-language descriptions into working AI Employees, EmaFusion combines 100+ AI models to optimize accuracy, cost and latency, and 1,000+ prebuilt connectors integrate with enterprise systems. Ema exposes a Builder Platform API (REST/JSON plus a gRPC-Web path) covering AI Employee, Chat, Workflow, Dashboard, Document Generation and tenant-management operations, secured by a two-step API-key to short-lived JWT flow, along with an Embeddable Chat SDK. The company is backed by Accel and Prosus Ventures.
 
-Backed by: accel, prosus-ventures — https://ema.co
+**Areas:** Company · Artificial Intelligence · Agents · AI Employees · Automation · Enterprise · Workflow Automation · Conversational AI
+
+## Ema on APIs.io
+
+Everything profiled for Ema is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ema/](https://apis.io/providers/ema/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Ema Builder Platform API](https://apis.io/apis/ema/ema-builder-platform-api/) — Programmatic access to Ema AI Employees. REST (HTTP/JSON) quickstart plus a gRPC-Web path for advanced endpoints, covering Chat, Workflows, Dashboards,…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ema Authentication](https://apis.io/security/ema/ema-authentication/)
+- [Ema Domain Security](https://apis.io/security/ema/ema-domain-security/)
+- [Ema Trust Center](https://apis.io/security/ema/ema-trust-center/)
+- [Ema Vulnerability Disclosure](https://apis.io/security/ema/ema-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.ema.ai)
+- [Documentation](https://builder.ema.ai)
+- [Getting started](https://builder.ema.ai/api-reference/getting-started)
+- [API reference](https://builder.ema.ai/api-reference/getting-started)
+- [Support](https://support.ema.ai)
+- [Blog](https://www.ema.ai/blog)
+- [Security](https://ema.co/.well-known/security.txt)
+- [Trust centre](https://trust.ema.ai/)
+- [Privacy policy](https://www.ema.ai/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 25.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 25.0 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 24.5** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ema/](https://apis.io/providers/ema/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ema: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ema/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
